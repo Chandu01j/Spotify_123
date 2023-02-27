@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-22T17:23:09 IST" name="SuiteSpotify" finished-at="2023-02-22T17:25:13 IST" duration-ms="124294">
+    <groups>
+    </groups>
+    <test started-at="2023-02-22T17:23:09 IST" name="ChromeTest" finished-at="2023-02-22T17:24:07 IST" duration-ms="57557">
+      <class name="testNg.TestNgclass2">
+        <test-method is-config="true" signature="LauchBrowser(java.lang.String)[pri:0, instance:testNg.TestNgclass2@1139b2f3]" started-at="2023-02-22T17:23:10 IST" name="LauchBrowser" finished-at="2023-02-22T17:23:11 IST" duration-ms="858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LauchBrowser -->
+        <test-method is-config="true" signature="ctreatePOMObjects()[pri:0, instance:testNg.TestNgclass2@1139b2f3]" started-at="2023-02-22T17:23:11 IST" name="ctreatePOMObjects" finished-at="2023-02-22T17:23:11 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctreatePOMObjects -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testNg.TestNgclass2@1139b2f3]" started-at="2023-02-22T17:23:11 IST" name="goToHomePage" finished-at="2023-02-22T17:23:22 IST" duration-ms="10477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method signature="VerifyNotificationSetting()[pri:0, instance:testNg.TestNgclass2@1139b2f3]" started-at="2023-02-22T17:23:22 IST" name="VerifyNotificationSetting" finished-at="2023-02-22T17:23:39 IST" duration-ms="16714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNotificationSetting -->
+        <test-method is-config="true" signature="logOutPage(org.testng.ITestResult)[pri:0, instance:testNg.TestNgclass2@1139b2f3]" started-at="2023-02-22T17:23:39 IST" name="logOutPage" finished-at="2023-02-22T17:23:46 IST" duration-ms="7749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyNotificationSetting status=SUCCESS method=TestNgclass2.VerifyNotificationSetting()[pri:0, instance:testNg.TestNgclass2@1139b2f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:testNg.TestNgclass2@1139b2f3]" started-at="2023-02-22T17:23:46 IST" name="clearPOMObjects" finished-at="2023-02-22T17:23:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+        <test-method is-config="true" signature="closedbrowser()[pri:0, instance:testNg.TestNgclass2@1139b2f3]" started-at="2023-02-22T17:24:06 IST" name="closedbrowser" finished-at="2023-02-22T17:24:07 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbrowser -->
+      </class> <!-- testNg.TestNgclass2 -->
+      <class name="testNg.TestNgClass1">
+        <test-method is-config="true" signature="LauchBrowser(java.lang.String)[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:23:09 IST" name="LauchBrowser" finished-at="2023-02-22T17:23:10 IST" duration-ms="1346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LauchBrowser -->
+        <test-method is-config="true" signature="ctreatePOMObjects()[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:23:11 IST" name="ctreatePOMObjects" finished-at="2023-02-22T17:23:11 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctreatePOMObjects -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:23:11 IST" name="goToHomePage" finished-at="2023-02-22T17:23:24 IST" duration-ms="12335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method signature="VerifyCreatePlayList()[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:23:24 IST" name="VerifyCreatePlayList" finished-at="2023-02-22T17:23:35 IST" duration-ms="11342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreatePlayList -->
+        <test-method is-config="true" signature="logOutPage(org.testng.ITestResult)[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:23:35 IST" name="logOutPage" finished-at="2023-02-22T17:23:35 IST" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCreatePlayList status=SUCCESS method=TestNgClass1.VerifyCreatePlayList()[pri:0, instance:testNg.TestNgClass1@31368b99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:23:35 IST" name="goToHomePage" finished-at="2023-02-22T17:23:43 IST" duration-ms="7431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method signature="VerifyLikedSongPlay()[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:23:43 IST" name="VerifyLikedSongPlay" finished-at="2023-02-22T17:23:53 IST" duration-ms="9792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLikedSongPlay -->
+        <test-method is-config="true" signature="logOutPage(org.testng.ITestResult)[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:23:53 IST" name="logOutPage" finished-at="2023-02-22T17:23:53 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLikedSongPlay status=SUCCESS method=TestNgClass1.VerifyLikedSongPlay()[pri:0, instance:testNg.TestNgClass1@31368b99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:23:53 IST" name="goToHomePage" finished-at="2023-02-22T17:23:58 IST" duration-ms="4900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method signature="VerifyPlaySong()[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:23:58 IST" name="VerifyPlaySong" finished-at="2023-02-22T17:24:06 IST" duration-ms="8067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPlaySong -->
+        <test-method is-config="true" signature="logOutPage(org.testng.ITestResult)[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:24:06 IST" name="logOutPage" finished-at="2023-02-22T17:24:06 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPlaySong status=SUCCESS method=TestNgClass1.VerifyPlaySong()[pri:0, instance:testNg.TestNgClass1@31368b99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:24:06 IST" name="clearPOMObjects" finished-at="2023-02-22T17:24:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+        <test-method is-config="true" signature="closedbrowser()[pri:0, instance:testNg.TestNgClass1@31368b99]" started-at="2023-02-22T17:24:06 IST" name="closedbrowser" finished-at="2023-02-22T17:24:06 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbrowser -->
+      </class> <!-- testNg.TestNgClass1 -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-02-22T17:24:07 IST" name="EdgeTest" finished-at="2023-02-22T17:25:13 IST" duration-ms="66674">
+      <class name="testNg.TestNgClass1">
+        <test-method is-config="true" signature="LauchBrowser(java.lang.String)[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:24:07 IST" name="LauchBrowser" finished-at="2023-02-22T17:24:10 IST" duration-ms="2973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LauchBrowser -->
+        <test-method is-config="true" signature="ctreatePOMObjects()[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:24:12 IST" name="ctreatePOMObjects" finished-at="2023-02-22T17:24:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctreatePOMObjects -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:24:12 IST" name="goToHomePage" finished-at="2023-02-22T17:24:26 IST" duration-ms="13907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method signature="VerifyCreatePlayList()[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:24:26 IST" name="VerifyCreatePlayList" finished-at="2023-02-22T17:24:39 IST" duration-ms="12411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreatePlayList -->
+        <test-method is-config="true" signature="logOutPage(org.testng.ITestResult)[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:24:39 IST" name="logOutPage" finished-at="2023-02-22T17:24:39 IST" duration-ms="338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCreatePlayList status=SUCCESS method=TestNgClass1.VerifyCreatePlayList()[pri:0, instance:testNg.TestNgClass1@14dd9eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:24:39 IST" name="goToHomePage" finished-at="2023-02-22T17:24:49 IST" duration-ms="9627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method signature="VerifyLikedSongPlay()[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:24:49 IST" name="VerifyLikedSongPlay" finished-at="2023-02-22T17:24:59 IST" duration-ms="10339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLikedSongPlay -->
+        <test-method is-config="true" signature="logOutPage(org.testng.ITestResult)[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:24:59 IST" name="logOutPage" finished-at="2023-02-22T17:24:59 IST" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLikedSongPlay status=SUCCESS method=TestNgClass1.VerifyLikedSongPlay()[pri:0, instance:testNg.TestNgClass1@14dd9eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:24:59 IST" name="goToHomePage" finished-at="2023-02-22T17:25:04 IST" duration-ms="5190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method signature="VerifyPlaySong()[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:25:04 IST" name="VerifyPlaySong" finished-at="2023-02-22T17:25:12 IST" duration-ms="7968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPlaySong -->
+        <test-method is-config="true" signature="logOutPage(org.testng.ITestResult)[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:25:12 IST" name="logOutPage" finished-at="2023-02-22T17:25:13 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPlaySong status=SUCCESS method=TestNgClass1.VerifyPlaySong()[pri:0, instance:testNg.TestNgClass1@14dd9eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="closedbrowser()[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:25:13 IST" name="closedbrowser" finished-at="2023-02-22T17:25:13 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbrowser -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:testNg.TestNgClass1@14dd9eb7]" started-at="2023-02-22T17:25:13 IST" name="clearPOMObjects" finished-at="2023-02-22T17:25:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+      </class> <!-- testNg.TestNgClass1 -->
+      <class name="testNg.TestNgclass2">
+        <test-method is-config="true" signature="LauchBrowser(java.lang.String)[pri:0, instance:testNg.TestNgclass2@42e99e4a]" started-at="2023-02-22T17:24:10 IST" name="LauchBrowser" finished-at="2023-02-22T17:24:12 IST" duration-ms="2618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LauchBrowser -->
+        <test-method is-config="true" signature="ctreatePOMObjects()[pri:0, instance:testNg.TestNgclass2@42e99e4a]" started-at="2023-02-22T17:24:12 IST" name="ctreatePOMObjects" finished-at="2023-02-22T17:24:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctreatePOMObjects -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testNg.TestNgclass2@42e99e4a]" started-at="2023-02-22T17:24:12 IST" name="goToHomePage" finished-at="2023-02-22T17:24:24 IST" duration-ms="11780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method signature="VerifyNotificationSetting()[pri:0, instance:testNg.TestNgclass2@42e99e4a]" started-at="2023-02-22T17:24:24 IST" name="VerifyNotificationSetting" finished-at="2023-02-22T17:24:39 IST" duration-ms="15106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNotificationSetting -->
+        <test-method is-config="true" signature="logOutPage(org.testng.ITestResult)[pri:0, instance:testNg.TestNgclass2@42e99e4a]" started-at="2023-02-22T17:24:39 IST" name="logOutPage" finished-at="2023-02-22T17:24:47 IST" duration-ms="8201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyNotificationSetting status=SUCCESS method=TestNgclass2.VerifyNotificationSetting()[pri:0, instance:testNg.TestNgclass2@42e99e4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:testNg.TestNgclass2@42e99e4a]" started-at="2023-02-22T17:24:47 IST" name="clearPOMObjects" finished-at="2023-02-22T17:24:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+        <test-method is-config="true" signature="closedbrowser()[pri:0, instance:testNg.TestNgclass2@42e99e4a]" started-at="2023-02-22T17:25:13 IST" name="closedbrowser" finished-at="2023-02-22T17:25:13 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbrowser -->
+      </class> <!-- testNg.TestNgclass2 -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- SuiteSpotify -->
+</testng-results>

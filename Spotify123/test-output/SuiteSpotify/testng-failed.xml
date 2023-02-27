@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [SuiteSpotify]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testNg.TestNgclass2">
+        <methods>
+          <include name="goToHomePage"/>
+          <include name="ctreatePOMObjects"/>
+          <include name="logOutPage"/>
+          <include name="closedbrowser"/>
+          <include name="LauchBrowser"/>
+          <include name="clearPOMObjects"/>
+          <include name="VerifyNotificationSetting"/>
+        </methods>
+      </class> <!-- testNg.TestNgclass2 -->
+      <class name="testNg.TestNgClass1">
+        <methods>
+          <include name="closedbrowser"/>
+          <include name="goToHomePage"/>
+          <include name="logOutPage"/>
+          <include name="VerifyCreatePlayList"/>
+          <include name="VerifyLikedSongPlay"/>
+          <include name="ctreatePOMObjects"/>
+          <include name="VerifyPlaySong"/>
+          <include name="clearPOMObjects"/>
+          <include name="LauchBrowser"/>
+        </methods>
+      </class> <!-- testNg.TestNgClass1 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" parallel="classes" name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="testNg.TestNgclass2">
+        <methods>
+          <include name="goToHomePage"/>
+          <include name="ctreatePOMObjects"/>
+          <include name="logOutPage"/>
+          <include name="closedbrowser"/>
+          <include name="LauchBrowser"/>
+          <include name="clearPOMObjects"/>
+          <include name="VerifyNotificationSetting"/>
+        </methods>
+      </class> <!-- testNg.TestNgclass2 -->
+      <class name="testNg.TestNgClass1">
+        <methods>
+          <include name="closedbrowser"/>
+          <include name="goToHomePage"/>
+          <include name="logOutPage"/>
+          <include name="VerifyCreatePlayList"/>
+          <include name="VerifyLikedSongPlay"/>
+          <include name="ctreatePOMObjects"/>
+          <include name="VerifyPlaySong"/>
+          <include name="clearPOMObjects"/>
+          <include name="LauchBrowser"/>
+        </methods>
+      </class> <!-- testNg.TestNgClass1 -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [SuiteSpotify] -->
